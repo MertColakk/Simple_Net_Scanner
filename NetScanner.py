@@ -7,7 +7,7 @@ Hedef IP adresi belirlenir
 Ether ve arp nesneleri birleştirilir
 Oluşan paket, 3 saniye timeout ile ve verbose modu kapalı olarak gönderilir
 Gelen paketler taranır ve her gelen paket için IP ve MAC adresleri bir listeye eklenir
-Liste ekrana yazdırılır: print(clients)
+Liste ekrana yazdırılır
 """
 from scapy.all import ARP, Ether, srp
 
